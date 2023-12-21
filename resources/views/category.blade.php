@@ -182,7 +182,7 @@
                 </div>
                 <div class="content">
                     <h3>{{ $product->name }}</h3>
-                    <div class="price">${{ $product->price }}</div>
+                    <div class="price">{{ $product->price }}</div>
                 </div>
             </div>
             @endforeach

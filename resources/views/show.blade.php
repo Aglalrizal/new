@@ -24,13 +24,14 @@
         }
 
         * {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+
 
         body {
             margin: 0;
             padding: 0;
-            font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             background-color: #fff5f5;
             box-sizing: border-box;
         }
@@ -263,7 +264,7 @@
         <div class="details-box">
             <h1>{{ $product->name }}</h1>
             <p>{{ $product->category->name }}</p>
-            <h2>${{ $product->price }}</h2>
+            <h2>{{ $product->price }}</h2>
             <h4>Description Product</h4>
             <p>{{ $product->description }}</p>
             @if(!$reviewed)

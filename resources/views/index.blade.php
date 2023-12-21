@@ -68,29 +68,29 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="image">
-                        <img src="images/lipstick.png" alt="">
+                        <img src="images/lipstick-1.png" alt="">
                     </div>
                 </div>
 
                 <div class="swiper-slide slide">
                     <div class="content">
                         <h3>Amuse</h3>
-                        <span> Feel the Beuty </span>
+                        <span> Feel the Beauty </span>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="image">
-                        <img src="images/lipstick.png" alt="">
+                        <img src="images/eyeshadow.png" alt="">
                     </div>
                 </div>
 
                 <div class="swiper-slide slide">
                     <div class="content">
                         <h3>Kyle</h3>
-                        <span> Feel the Beuty</span>
+                        <span> Feel the Beauty</span>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="image">
-                        <img src="images/lipstick.png" alt="">
+                        <img src="images/lipstick-1.png" alt="">
                     </div>
                 </div>
 
@@ -111,11 +111,7 @@
 
             <div class="content">
                 <h3>Why Choose Us</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Cupiditate illum natus unde, debitis velit consequatur eveniet odio perferendis tempora iusto,
-                    nostrum nam, dolores beatae pariatur veniam dicta ipsam accusamus similique.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Cupiditate illum natus unde, debitis velit consequatur eveniet odio perferendis tempora iusto.</p>
+                <p>De Beaute hadir untuk memenuhi kebutuhan konsumen dalam bidang kecantikan. De Beaute menyediakan platform untuk berbagi pengalaman, informasi produk, saran makeup, membantu pengguna membuat keputusan yang lebih baik.</p>
             </div>
         </div>
 
@@ -169,7 +165,7 @@
                 </div>
                 <div class="content">
                     <h3>{{ $products[$i]->name }}</h3>
-                    <div class="price">${{ $products[$i]->price }}</div>
+                    <div class="price">{{ $products[$i]->price }}</div>
                 </div>
         </div>
         @endfor
@@ -249,7 +245,7 @@
 
     <section class="review" id="review">
 
-        <h1 class="heading"> costumer <span>review</span></h1>
+        <h1 class="heading"> customer <span>review</span></h1>
 
         <div class="box-container">
             <div class="box">
